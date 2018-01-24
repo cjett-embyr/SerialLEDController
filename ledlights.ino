@@ -10,6 +10,7 @@ void setup(){
   pinMode(BLUPIN,OUTPUT);
   //start communication with wifi board
   Serial.begin(115200);
+  Serial.SetTimeout(10);
 
 }
 
